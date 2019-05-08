@@ -207,7 +207,7 @@ $(document).ready(function () {
 <h2>Model selection</h2>
 <div id="load-data-and-split-into-train-and-validation" class="section level4">
 <h4>Load data and split into train and validation</h4>
-<p>Read the training set. Subdivide it further into a training set on which to design the model and a validation set on which to validate it before applying it on the actual testing set.</p>
+<p>Read the training set. SubdividE it further into a training set on which to design the model and a validation set on which to validate it before applying it on the actual testing set.</p>
 <pre class="r"><code>training_set&lt;-read.csv('pml-training.csv')
 set.seed(1234)
 intrain&lt;-createDataPartition(training_set$classe, p=0.75, list = FALSE)
